@@ -1,2 +1,2 @@
 # CrealyticsUsage
-CSV read, Excel read using sparkSQL and exporting data from hive to local machine using sparkSQL
+CSV read, Excel read using sparkSQL using crealytics and exported dataframe to excel using com.github.zuinnote library
