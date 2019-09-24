@@ -9,9 +9,9 @@ object ExportDataFrame {
   def readWrittenSalesData(sparkSession: SparkSession): DataFrame =
   {
     val driver = "org.apache.hive.jdbc.HiveDriver"
-    val url = "jdbc:hive2://172.16.100.52:10000"
-    val username = "awarkhade"
-    val password = "Conns123"
+    val url = "jdbc:hive2://172.1.1.0:10000"
+    val username = ""
+    val password = ""
 
     var finalSeq = Seq[Sales]()
 
